@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="53d55aaa-37d7-48a1-bb5b-fee348ab465b" name="laravel" url="http://laravel.test">
+        <fileTransfer host="laravel.test" port="22" privateKey="C:\Users\CMR\PhpstormProjects\laravel\laravel\puphpet\files\dot\ssh\insecure_private_key" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
