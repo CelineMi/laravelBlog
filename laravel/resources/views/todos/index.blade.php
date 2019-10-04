@@ -20,7 +20,7 @@
                           <ul class="list-group">
                               @Foreach($todos as $todo)
                                   <li class="list-group-item">{{$todo->name}}
-                                    <button class="btn btn-primary btn-sm float-right">View</button>
+                                      <a href="/public/todos/{{$todo->id}}"><button class="btn btn-primary btn-sm float-right">View</button></a>
                                   </li>
                               @endforeach
                           </ul>
